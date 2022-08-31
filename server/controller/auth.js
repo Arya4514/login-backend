@@ -8,6 +8,18 @@ let user = [{
     password: utils.hashPassword("test@123"),
     userName: "test",
     name: "Test John",
+    bio: "Hi, I am Test John professional web developer",
+}, {
+    email: "johndoe@gmail.com",
+    password: utils.hashPassword("john@123"),
+    userName: "test",
+    name: "Test John",
+    bio: "Hi, I am Test John professional web developer"
+}, {
+    email: "jamesdoe@gmail.com",
+    password: utils.hashPassword("james@123"),
+    userName: "test",
+    name: "Test John",
     bio: "Hi, I am Test John professional web developer"
 }]
 
