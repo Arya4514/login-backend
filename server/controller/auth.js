@@ -116,7 +116,6 @@ module.exports = {
 
                 if (token.otp != parseInt(req.body.otp)) {
                     return res.status(401).send({ error: true, message: "provide valid otp" });
-
                 }
                 else if (dateDifference > 600) {
                     return res.status(401).send({ error: true, message: "Otp expired!" });
